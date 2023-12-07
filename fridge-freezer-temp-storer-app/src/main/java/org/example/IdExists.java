@@ -8,12 +8,12 @@ public class IdExists {
      * @param idToBeChecked
      * @return boolean
      */
-    public static void IdCheck(String idToBeChecked){
+    public static void IdCheck(String idToBeChecked, long temp){
         File file = new File();
         if (file.isFile(idToBeChecked)){
-            
+            //storeInExistingTxt(idToBeChecked, temp)
         } else{
-
+            //storeInNewTxt(idToBeChecked, temp)
         }
 
     }
