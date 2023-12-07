@@ -1,7 +1,9 @@
 package org.example;
 
-import java.io.File;
+import org.springframework.stereotype.Component;
 
+import java.io.File;
+@Component
 public class IdExists {
     /* Method that takes fridge/freezer id and checks if file exists. If not it creates file.
      *
